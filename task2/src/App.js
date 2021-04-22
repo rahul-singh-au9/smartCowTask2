@@ -1,10 +1,10 @@
-import './App.css';
-import Youtube from './components/Youtube/Youtube'
+import Carousel from './components/Corousel/Carousel';
+import Youtube from './components/Youtube/Youtube';
 
 function App() {
   return (
-    <div className="App">
-      hi
+    <div>
+      <Carousel/>
       <Youtube/>
     </div>
   );
