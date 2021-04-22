@@ -11,18 +11,20 @@ const img3 =
 
 const CarouselComp = () => {
   return (
-    <Carousel
-      style={{
-        height: "400px",
-        width: "950px",
-        marginLeft: "210px",
-        marginTop: "30px",
-      }}
-    >
-      <img src={img1} alt="pic" />
-      <img src={img2} alt="pic" />
-      <img src={img3} alt="pic" />
-    </Carousel>
+    <div>
+      <Carousel
+        style={{
+          height: "400px",
+          width: "950px",
+          marginLeft: "210px",
+          marginTop: "30px",
+        }}
+      >
+        <img src={img1} alt="pic" />
+        <img src={img2} alt="pic" />
+        <img src={img3} alt="pic" />
+      </Carousel>
+    </div>
   );
 };
 
