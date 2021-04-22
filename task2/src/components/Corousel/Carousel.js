@@ -1,16 +1,27 @@
-import React from "react";
 import Carousel from "nuka-carousel";
 
-const img2 = "https://i.ibb.co/ScYfC1m/hotel1.png";
-const img3 = "https://i.ibb.co/xL0yfNr/m-tube1.png";
-const img4 = "https://i.ibb.co/ctXp9Q1/new-home7.png";
+const img1 =
+  "https://images.pexels.com/photos/1031641/pexels-photo-1031641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+
+const img2 =
+  "https://images.pexels.com/photos/696644/pexels-photo-696644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+
+const img3 =
+  "https://images.pexels.com/photos/1252814/pexels-photo-1252814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
 
 const CarouselComp = () => {
   return (
-    <Carousel>
+    <Carousel
+      style={{
+        height: "400px",
+        width: "950px",
+        marginLeft: "210px",
+        marginTop: "30px",
+      }}
+    >
+      <img src={img1} alt="pic" />
       <img src={img2} alt="pic" />
       <img src={img3} alt="pic" />
-      <img src={img4} alt="pic" />
     </Carousel>
   );
 };
